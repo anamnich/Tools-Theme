@@ -29,7 +29,7 @@ else
    echo "Created Backup going furthur"
 fi
 
-sudo curl https://raw.githubusercontent.com/anamnich/Tools-Theme/master/resources/mcTheme/mcTheme.tar.gz | sudo tar -xz
+sudo curl https://raw.githubusercontent.com/anamnich/Tools-Theme/main/resources/mcTheme/mcTheme.tar.gz | sudo tar -xz
 #clear
 cd /var/www/pterodactyl
 
