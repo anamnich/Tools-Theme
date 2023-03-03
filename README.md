@@ -13,7 +13,7 @@ The version number off the branch is the version that it works on on pterodactyl
 A simple menu where you can choose which addon or theme you want
 **Use root when running this! Else the script will fail!**  
 ```
-bash <(curl https://raw.githubusercontent.com/anamnich/Tools-Theme/master/resources/script.sh)
+bash <(curl https://raw.githubusercontent.com/anamnich/Tools-Theme/main/resources/script.sh)
 ```
 
 
