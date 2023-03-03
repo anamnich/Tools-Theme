@@ -24,30 +24,30 @@ echo "7. Close / Cancel"
 read -p "Please enter a number: " choice
 if [ $choice == "1" ]
     then
-    bash <(curl -s https://raw.githubusercontent.com/SFams21/Tools-Theme/master/resources/DarkNColor.sh)
+    bash <(curl -s https://raw.githubusercontent.com/anamnich/Tools-Theme/main/resources/DarkNColor.sh)
 fi
 if [ $choice == "2" ]
     then
-    bash <(curl -s https://raw.githubusercontent.com/SFams21/Tools-Theme/master/resources/Addons.sh)
+    bash <(curl -s https://raw.githubusercontent.com/anamnich/Tools-Theme/main/resources/Addons.sh)
 fi
 if [ $choice == "3" ]
     then
     echo "Installing Particles themes..."
-    bash <(curl -sSL https://raw.githubusercontent.com/SFams21/Tools-Theme/master/resources/ParticleJS/install.sh)
+    bash <(curl -sSL https://raw.githubusercontent.com/anamnich/Tools-Theme/main/resources/ParticleJS/install.sh)
 fi
 if [ $choice == "4" ]
     then
     echo "Installing Minecraft Theme..."
-    bash <(curl -sSL https://raw.githubusercontent.com/SFams21/Tools-Theme/master/resources/mcTheme/install.sh)
+    bash <(curl -sSL https://raw.githubusercontent.com/anamnich/Tools-Theme/main/resources/mcTheme/install.sh)
 fi
 if [ $choice == "5" ]
     then
     echo "Installing Animated login"
-    bash <(curl -s https://raw.githubusercontent.com/SFams21/Tools-Theme/master/resources/login/install.sh)
+    bash <(curl -s https://raw.githubusercontent.com/anamnich/Tools-Theme/main/resources/login/install.sh)
 fi
 if [ $choice == "6" ]
     then
-    bash <(curl -s https://raw.githubusercontent.com/SFams21/Tools-Theme/master/resources/restore.sh)
+    bash <(curl -s https://raw.githubusercontent.com/anamnich/Tools-Theme/main/resources/restore.sh)
 fi
 if [ $choice == "7" ]
     then
